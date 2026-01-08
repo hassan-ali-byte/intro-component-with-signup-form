@@ -13,11 +13,12 @@ const userPassword = document.querySelector("input[type='password']");
 
 // Group fields in an array for easy loop
 const fields = [
-  { el: userFirstName, name: "First Name" },
-  { el: userLastName, name: "Last Name" },
-  { el: userEmail, name: "Email", fakeValue: "email@example.com" },
-  { el: userPassword, name: "Password" },
+  { el: userFirstName },
+  { el: userLastName },
+  { el: userEmail, fakeValue: "email@example.com" },
+  { el: userPassword },
 ];
+
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
