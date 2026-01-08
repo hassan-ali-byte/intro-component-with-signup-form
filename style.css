@@ -263,8 +263,12 @@ input::placeholder {
 }
 
 .disclaimer .terms {
+    text-decoration: none;
     color: var(--primary-300);
     font-weight: var(--fw-regular);
+}
+.terms:hover{
+    text-decoration: underline;
 }
 
 .submission {
